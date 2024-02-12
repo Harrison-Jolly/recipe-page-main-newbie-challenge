@@ -33,6 +33,15 @@ h1 {
     font-size: 2.8rem;
     padding: 2rem 0;
     color: black;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Young Serif', serif;
+    color: hsl(14, 45%, 36%);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
 }
 
 h3 {
@@ -43,8 +52,21 @@ h3 {
 li {
     margin-top: 1rem;
     margin-left: 10px;
-    list-style-position: inside;
+    list-style-position: outside;
+    margin-left: 25px;
+}
+
+li::marker {
     color: hsl(332, 51%, 32%);
+}
+
+ol li {
+    position: relative;
+    margin-left: 25px;
+}
+
+ol li::marker {
+    font-weight: 600;
 }
 
 .header-img {
@@ -63,6 +85,45 @@ li {
     font-weight: 600;
 }
 
-.clr-dark-charcoal {
-    color: hsl(24, 5%, 18%);
+.clr-nutmeg {
+    color:hsl(14, 45%, 36%);
+}
+
+.padding-1 {
+    padding-bottom: 1.5rem;
+}
+
+hr.rounded {
+    border-top: 1px solid #bbb;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 3rem);
+    align-items: center;
+}
+
+.grid-container div {
+    padding-left: 2rem;
+    border-bottom: 1px solid #bbb;
+    height: 100%;
+}
+
+.grid-container div:last-of-type, div:nth-last-of-type(2) {
+    border-bottom: none;
+}
+
+.grid-container div p {
+    vertical-align: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    align-self: center;
 }
