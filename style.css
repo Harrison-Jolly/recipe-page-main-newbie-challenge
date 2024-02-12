@@ -127,3 +127,42 @@ hr.rounded {
 .flex-item {
     align-self: center;
 }
+
+@media only screen and (max-width: 375px)  {
+    body {
+        background-color: hsl(30, 54%, 90%);
+        padding: 0;
+        padding-top: 8rem;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        background-color: hsl(0, 0%, 100%);
+        padding: 1rem 2rem;
+    }
+
+    .header-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        margin: 1rem 0;
+    }
+
+    hr {
+        margin: 1rem 0;
+    }
+    
+}
