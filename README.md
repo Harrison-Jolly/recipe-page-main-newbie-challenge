@@ -59,7 +59,6 @@ Also I couldn't figure out how to get put some space between the text of the `<o
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [Harrison-Jolly](https://www.frontendmentor.io/profile/Harrison-Jolly)
 - LinkedIn - [Harrison-Jolly](www.linkedin.com/in/harrison-jolly-0886a9260)
 
