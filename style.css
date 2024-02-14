@@ -61,9 +61,7 @@ li::marker {
 }
 
 ol li {
-    position: relative;
-    margin-left: 25px;
-    text-indent: 20px;
+    padding-left: 20px;
 }
 
 ol li::marker {
